@@ -1,75 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <fullName>AccountSource</fullName>
+        <fullName>AccountId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>AnnualRevenue</fullName>
+        <fullName>Amount</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
     </fields>
     <fields>
-        <fullName>BillingAddress</fullName>
+        <fullName>CampaignId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CloseDate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
     </fields>
     <fields>
-        <fullName>Fax</fullName>
+        <fullName>LeadSource</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>Industry</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>IsCustomerPortal</fullName>
-    </fields>
-    <fields>
-        <fullName>Jigsaw</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
     </fields>
     <fields>
-        <fullName>NumberOfEmployees</fullName>
+        <fullName>NextStep</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>ParentId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Hierarchy</type>
+        <fullName>Pricebook2Id</fullName>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Phone</fullName>
+        <fullName>Probability</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
     </fields>
     <fields>
-        <fullName>ShippingAddress</fullName>
+        <fullName>StageName</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>SicDesc</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Type</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Website</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
 </CustomObject>
