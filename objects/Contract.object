@@ -15,6 +15,14 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>ActiveNow__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ActiveNow</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>BillingAddress</fullName>
         <trackHistory>true</trackHistory>
     </fields>
